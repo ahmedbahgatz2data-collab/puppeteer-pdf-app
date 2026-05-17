@@ -1,14 +1,11 @@
 {
-  "name": "puppeteer-pdf-app",
+  "name": "puppeteer-pdf-vercel",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
   "dependencies": {
+    "@sparticuz/chromium-min": "123.0.0",
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "puppeteer": "^22.6.0"
+    "puppeteer-core": "22.6.0"
   }
 }
